@@ -1,0 +1,16 @@
+En el ejercicio expuesto como conclusión general, se concluye que las APIs REST también se pueden
+automatizar para así poder agilizar las pruebas de performance, es un punto favorable en el tiempo para
+la certificación de calidad del software y en la entrega del producto final al usuario experto.
+
+Los escenarios utilizados son Outline,con el fin de ejecutar varias pruebas con diferentes parámetros de
+esta manera se pudo capturar los diferentes códigos de respuesta de la Api.
+
+En cada escenario se capturaron los códigos de error para poder validar el comportamiento de la Api, algunas
+validaciones fueron como ingresar caracteres especiales en el campo de id, esta prueba se la realizo para
+validar que el campo no permita los mismos y así evitar un ataque de sql injection.
+
+Adicional se validaron campos en blanco con el fin de determinar si los campos deben ser obligatorios y poder
+capturar el código de error, esta validación nos ayuda a determinar y debería estar o no estar el campo en la
+trama.
+
+Todas estas validaciones se pueden realizar en cada uno de los parametros expuestos en la trama.
